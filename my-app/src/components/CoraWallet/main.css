@@ -1,0 +1,102 @@
+.cora-wallet {
+  width: 100%;
+  padding: 40px 20px 35px;
+  border-radius: 3px;
+  background-color: var(--main-bg-color);
+  border: 3px solid var(--light-green);
+}
+
+.cora-wallet p {
+  margin: 0;
+  font-weight: bold;
+  filter: drop-shadow(0 0 20px var(--black));
+}
+
+.cora-wallet .subtitle {
+  font-size: 12px;
+  font-weight: 300;
+  text-align: center;
+  color: var(--light-gray);
+}
+
+.cora-wallet .cora-wallet-address {
+  color: var(--light-gray);
+}
+
+.cora-wallet .token-pic,
+.cora-wallet .token-balance {
+  text-align: left;
+  width: 50%;
+  font-family: 'Oxanium', sans-serif;
+}
+
+.token-balance p {
+  font-size: 16px;
+}
+
+
+.cora-wallet .token-pic img {
+  width: 75px;
+  border-radius: 50%;
+  text-align: right;
+}
+
+
+/* Send box */
+.send-box {
+  position: relative;
+}
+
+.send-box .headline{
+  font-size: 18px;
+  font-family: 'Oxanium', sans-serif;
+}
+
+.send-box .close-window {
+  transform: scaleX(-1);
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: -22px;
+  left: 3px;
+  cursor: pointer;
+}
+
+.send-box img {
+  width: 30px;
+  height: 30px;
+  margin: 0 8px 0 0;
+  border-radius: 50%;
+}
+
+.send-box-input {
+  border-radius: 3px;
+  background-color: var(--light-green);
+  margin-bottom: 24px;
+  padding: 10px 0;
+}
+
+.send-box input {
+  margin: 0;
+  border: 0;
+  text-align: right;
+  width: 100px;
+  margin-right: 10px;
+  background-color: var(--light-green);
+}
+
+.you-send,
+.you-send-address {
+  padding: 0 18px;
+}
+
+.you-send img,
+.you-send-address img {
+  margin: 0;
+}
+
+.you-send-address input {
+  text-align: left;
+  width: 220px;
+  padding: 20px 0;
+}

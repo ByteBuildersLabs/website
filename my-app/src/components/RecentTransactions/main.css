@@ -1,0 +1,23 @@
+.transactions {
+  padding: 15px 0;
+}
+
+.transactions h4 {
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 800;
+}
+
+.transaction {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-bottom: 12px;
+  background-color: var(--light-green);
+}
+
+.transaction .send-receive-pic {
+  width: 30px;
+  height: 30px;
+  margin-right: 17px;
+}

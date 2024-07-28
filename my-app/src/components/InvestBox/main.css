@@ -1,0 +1,99 @@
+.invest-box p:nth-child(2) {
+  margin-bottom: 38px;
+}
+
+.invest-box .you-pay,
+.invest-box .you-receive {
+  border-radius: 20px;
+  background-color: var(--light-green);
+}
+
+.invest-box .you-pay div,
+.invest-box .you-receive div {
+  width: 33%;
+  height: 55px;
+}
+
+.invest-box input {
+  margin: 0;
+  text-align: right;
+  padding-right: 12px;
+  height: 50px;
+  border: var(--light-green);
+  border-radius: 3px;
+}
+
+.invest-box .exchange-icon div:first-of-type,
+.invest-box .exchange-icon div:last-of-type {
+  background-color: var(--main-bg-color);
+  width: 10%;
+  z-index: 1;
+}
+
+.invest-box .exchange-icon div:first-of-type {
+  border-radius: 0 20px 20px 0;
+  position: relative;
+  left: 16px;
+}
+
+.invest-box .exchange-icon div:last-of-type {
+  border-radius: 20px 0 0 20px;
+  position: relative;
+  right: 15px;
+}
+
+.invest-box .exchange-icon-img {
+  width: 35%;
+  background-color: var(--light-green);
+}
+
+.invest-box .exchange-icon img {
+  width: 35px;
+  transform: rotate(90deg);
+}
+
+.invest-box .main-button {
+  margin-top: 20px;
+}
+
+.invest-box .token-pic {
+  width: 25px;
+  height: 25px;
+  margin: 0 8px 0 12px;
+}
+
+.invest-box .title-input {
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 53px;
+  left: 4px;
+  color: var(--light-gray);
+}
+
+.invest-box .gas-container {
+  width: 50%;
+  padding: 14px 20px;
+  border-radius: 3px;
+  background-color: var(--light-green);
+}
+
+.invest-box .gas-container input {
+  padding: 0;
+}
+
+.invest-box .gas-pic {
+  width: 25px;
+}
+
+.invest-box .cost,
+.invest-box .transaction-cost-title {
+  display: block;
+  text-align: left;
+}
+
+.invest-box .transaction-cost-title {
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--light-gray);
+}

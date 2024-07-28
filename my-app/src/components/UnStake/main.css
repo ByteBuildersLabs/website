@@ -1,0 +1,36 @@
+.unstake-box {
+  margin: 0 auto;
+  padding: 0 15px 15px;
+  background-color: transparent;
+}
+
+.unstake .pic {
+  width: 25px;
+  height: 25px;
+  margin: -5px 5px 0 0;
+  border-radius: 50%;
+}
+
+.unstake .unlock-pic {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.unstake .you-unstake {
+  margin-bottom: 6px;
+}
+
+.unstake .you-unstake div {
+  height: 55px;
+}
+
+.unstake input {
+  text-align: right;
+  border: 0;
+  margin: 0 4px 0 0;
+}
+
+.unstake .you-unstake input {
+  width: 70px;
+  background-color: transparent;
+}

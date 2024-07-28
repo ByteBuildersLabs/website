@@ -1,0 +1,12 @@
+.loading img {
+  margin: 14px 0 0 0;
+  width: 35px;
+  height: 35px;
+  animation: spin 2s infinite linear;
+  filter: drop-shadow(0 0 0px var(--black));
+}
+
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
