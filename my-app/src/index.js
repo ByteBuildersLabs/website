@@ -17,11 +17,12 @@ import Wallet from './views/Wallet/index';
 import Stake from './views/Stake/index';
 import NftRoom from './views/NftRoom/index';
 import RewardsRoom from './views/RewardsRoom/index';
+import Roadmap from './views/Roadmap';
+import Game from './views/Game';
 import NftCollection from './components/NftCollection/index';
 import NftOwner from './components/NftOwner/index';
 import NftDetails from './components/NftDetails/index';
 import NftMint from './components/NftMint/index';
-import Header from './components/Header/index';
 import Navbar from './components/Navbar/index';
 import NewUser from './components/NewUser/index';
 import ForgotPassword from './components/ForgotPassword/index';
@@ -56,7 +57,9 @@ ReactDOM.render(
                 <Route path='/nftcollection/:collectionName' element={<NftCollection/>}/>
                 <Route path='/nftroom/:collectionName/:tokenId' element={<NftDetails/>}/>
                 <Route path='/nftmint/:collectionName' element={<NftMint/>}/>
-                <Route path='/nftowner/:ownerAddress' element={<NftOwner/>}/>  
+                <Route path='/nftowner/:ownerAddress' element={<NftOwner/>}/>
+                <Route path='/roadmap' element={<Roadmap/>}/>
+                <Route path='/game' element={<Game/>}/>
               </Routes>
             </div>
             <Navbar/>

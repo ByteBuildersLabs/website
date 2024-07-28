@@ -233,7 +233,6 @@ button {
   padding: 40px 20px;
   border-radius: 3px;
   background-color: transparent;
-  filter: drop-shadow(0 0 20px var(--black));
 }
 
 .section-tab .title {

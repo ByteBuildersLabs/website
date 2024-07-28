@@ -20,11 +20,11 @@ function Navbar() {
             <img src={stakeIcon} alt="" />
             Mint Beast
           </Link>
-          <Link to="/stake" className="button">
+          <Link to="/game" className="button">
             <img src={investIcon} alt="" />
             Play Game
           </Link>
-          <Link to="/invest" className="button">
+          <Link to="/roadmap" className="button">
             <img src={nftIcon} alt="" />
             Roadmap
           </Link>
