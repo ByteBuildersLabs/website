@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import nftIcon from '../../assets/img/purpleorb.gif';
-import homeIcon from '../../assets/img/developermonster-face.png';
+import homeIcon from '../../assets/img/logo.jpg';
 import investIcon from '../../assets/img/orb.gif';
 import stakeIcon from '../../assets/img/greenorb.gif';
 import walletIcon from '../../assets/img/wallet.png';

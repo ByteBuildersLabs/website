@@ -3,11 +3,11 @@
   bottom: 0;
   width: 100%;
   padding: 20px 0;
-  background-color: var(--light-green);
+  background-color: #000;
   border-radius: 3px;
   margin: auto;
   display: flex;
-  border-top: 3px solid #3a3042;
+  border-top: 3px solid #731627;
 }
 
 .navbar-bottom .container {
@@ -15,7 +15,7 @@
 }
 
 .navbar-bottom a {
-  font-family: 'Oxanium', sans-serif;
+  font-family: "Marcellus SC", serif;
   color: var(--light-gray);
   font-size: 12px;
   margin: 0 auto;
@@ -31,8 +31,10 @@
 }
 
 .navbar-bottom img {
+  object-fit: cover;
   display: block;
   width: 35px;
+  height: 35px;
   margin: 0 auto 5px;
   border-radius: 50%;
   transition: all 0.25s;
@@ -42,7 +44,7 @@
 .navbar-bottom img:focus,
 .navbar-bottom img:hover {
   color: var(--white);
-  border: 2px solid #e4a101;
+  border: 2px solid #731627;
 }
 
 

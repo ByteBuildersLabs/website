@@ -5,7 +5,7 @@
 }
 
 .collection-title {
-  font-family: 'Oxanium', sans-serif;
+  font-family: "Marcellus SC", serif;
   text-align: center;
   font-size: 32px;
   font-weight: 800;
@@ -50,7 +50,7 @@
 }
 
 .nft-card p {
-  font-family: 'Oxanium', sans-serif;
+  font-family: "Marcellus SC", serif;
   color: var(--white);
   font-weight: bold;
   font-size: 10px;

@@ -1,5 +1,5 @@
 import React from 'react';
-import monster from '../../assets/img/developermonster-face.png';
+import monster from '../../assets/img/logo.jpg';
 import './main.css';
 
 function Homescreen() {
@@ -7,7 +7,7 @@ function Homescreen() {
     <>
       <div className="homescreen">
         <div className="breadcrumb-content text-right">
-          <h2><span>Welcome to Monster Capital </span>Investor's App</h2>
+          <h2><span>Welcome to Byte Beasts </span>OnChain Mobile Unity Game</h2>
         </div>
         <div className="breadcrumb-content text-left">
           <img src={monster} width="112" height="112" />

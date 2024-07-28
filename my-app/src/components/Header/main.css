@@ -5,8 +5,8 @@
   width: 100%;
   z-index: 2;
   padding: 15px 15px 0;
-  background-color: #1c1121;
-  border-bottom: 2px solid #3a3042;
+  background-color: #000;
+  border-bottom: 2px solid #000;
 }
 
 .navbar .container {
@@ -23,7 +23,7 @@
 }
 
 .navbar .logo h2 {
-  font-family: 'Oxanium', cursive;
+  font-family: "Marcellus SC", serif;
   font-weight: 800;
   font-size: 24px;
   margin-top: 7px;

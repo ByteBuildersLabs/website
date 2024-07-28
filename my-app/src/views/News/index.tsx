@@ -15,7 +15,7 @@ function News() {
           ? <>
               <div className="section-title title-style-two text-center mb-60">
                 <span>Metaverse Rooms</span>
-                <h2>Welcome Home <span className="d-block">Monster Capital MetaMansion</span></h2>
+                <h2>Welcome Home <span className="d-block">Byte Beasts MetaMansion</span></h2>
               </div>
               <Meetings />
             </>

@@ -26,6 +26,7 @@ import Navbar from './components/Navbar/index';
 import NewUser from './components/NewUser/index';
 import ForgotPassword from './components/ForgotPassword/index';
 import Article from './components/Article/index';
+import Background from './components/Background/index';
 
 function getLibrary(provider) {
   return new Web3(provider)
@@ -39,6 +40,7 @@ ReactDOM.render(
           <Router>
             <ConnectOnPageLoad />
             <Header/>
+            <Background />
             <div id="content">
               <Routes>
                 <Route path='/' element={<Home/>}/>

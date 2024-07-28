@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Oxanium:400,500,600,700,800|Poppins:400,400i,500,500i,600,600i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --main-bg-color: #1d1428;
-  --yellow: #e4a101;
+  --main-bg-color: #000;
+  --yellow: #731627;
   --white: #fff;
-  --light-green: #190e22;
+  --light-green: #000;
   --light-gray: #90949c;
-  --black: #161623;
+  --black: #000;
   --black-bold: #000;
   --warning: #ed6444;
 }
@@ -18,14 +18,13 @@
 body {
   color: var(--white);
   background-color: var(--main-bg-color);
-  background-image: url('./assets/img/bg/breadcrumb_bg.jpg');
+  background-image: url('./assets/img/fuego.mp4');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top center;
   padding-bottom: 100px;
-  background-position: center;
   background-size: cover;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 #content {
@@ -82,7 +81,7 @@ button {
 }
 
 .main-button {
-  font-family: 'Oxanium', sans-serif;
+  font-family: "Marcellus SC", serif;
   width: 100%;
   display: block;
   padding: 12px;
@@ -135,7 +134,7 @@ button {
 }
 
 .yellow {
-  font-family: 'Oxanium', sans-serif;
+  font-family: "Marcellus SC", serif;
   color: var(--yellow);
   transition: all 0.25s;
 }
@@ -180,7 +179,7 @@ button {
 /* Section tabs */
 
 .section-title {
-  font-family: 'Oxanium', sans-serif;
+  font-family: "Marcellus SC", serif;
 }
 
 .section-title h2 {
@@ -233,12 +232,12 @@ button {
   margin: 0 0 30px;
   padding: 40px 20px;
   border-radius: 3px;
-  background-color: var(--main-bg-color);
+  background-color: transparent;
   filter: drop-shadow(0 0 20px var(--black));
 }
 
 .section-tab .title {
-  font-family: 'Oxanium', sans-serif;
+  font-family: "Marcellus SC", serif;
   font-weight: 800;
   font-size: 18px;
   margin: 0;
@@ -247,7 +246,7 @@ button {
 
 .section-tab .title span {
   font-size: 18px;
-  color: var(--yellow);
+  color: #e4a101;
 }
 
 .section-tab .subtitle {
@@ -265,7 +264,6 @@ button {
   font-size: 12px;
   font-weight: 800;
   text-transform: uppercase;
-  color: #1c1121;
   height: 30px;
   line-height: 30px;
   display: block;
@@ -289,7 +287,7 @@ button {
   z-index: -1;
   right: 0;
   margin: 0 auto;
-  background: #3a3042;
+  background: transparent;
   transition: all 0.3s ease-out 0s;
 }
 
