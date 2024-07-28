@@ -12,26 +12,26 @@ function Navbar() {
     <>
       <div className="navbar-bottom">
         <div className="container d-flex">
-          <Link to="/" className="button">
+          {/* <Link to="/" className="button">
             <img src={homeIcon} alt="" />
             Home
-          </Link>
+          </Link> */}
           <Link to="/nftroom" className="button">
-            <img src={nftIcon} alt="" />
-            NFTs
+            <img src={stakeIcon} alt="" />
+            Mint Beast
           </Link>
           <Link to="/stake" className="button">
-            <img src={stakeIcon} alt="" />
-            Stake
+            <img src={investIcon} alt="" />
+            Play Game
           </Link>
           <Link to="/invest" className="button">
-            <img src={investIcon} alt="" />
-            Invest
+            <img src={nftIcon} alt="" />
+            Roadmap
           </Link>
-          <Link to="/wallet" className="button">
+          {/* <Link to="/wallet" className="button">
             <img src={walletIcon} alt="" />
             Wallet
-          </Link>
+          </Link> */}
         </div>
       </div>
     </>

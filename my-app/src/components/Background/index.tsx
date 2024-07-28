@@ -11,11 +11,6 @@ function Background() {
         allowFullScreen 
         title="video"
       ></iframe>
-      <div className="content">
-        {/* Your content here */}
-        <h1>Welcome to My Website</h1>
-        <p>This is an example of a video background.</p>
-      </div>
     </div>
   )
 }

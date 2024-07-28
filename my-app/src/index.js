@@ -39,7 +39,7 @@ ReactDOM.render(
         <GlobalContextProvider>
           <Router>
             <ConnectOnPageLoad />
-            <Header/>
+            {/* <Header/> */}
             <Background />
             <div id="content">
               <Routes>

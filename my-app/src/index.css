@@ -31,7 +31,7 @@ body {
   width: 100%;
   max-width: 425px;
   margin: auto;
-  padding: 83px 15px 20px;
+  padding: 30px 15px 20px;
 }
 
 p {
@@ -91,7 +91,7 @@ button {
   border-radius: 3px;
   border: 0;
   background-color: var(--light-green);
-  border-bottom: 3px solid var(--yellow);
+  border-bottom: 3px solid #e4a101;
   cursor: pointer;
   transition: all 0.25s;
 }

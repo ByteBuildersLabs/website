@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 250%;
+  width: 280%;
   height: 100%;
   z-index: -1; /* Ensure the video is behind the content */
   overflow: hidden;
@@ -10,7 +10,7 @@
 
 .video-background iframe {
   position: absolute;
-  top: 0;
+  top: -6%;
   left: -30%;
   width: 100%;
   height: 100%;
