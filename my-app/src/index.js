@@ -44,7 +44,7 @@ ReactDOM.render(
             <Background />
             <div id="content">
               <Routes>
-                <Route path='/' element={<Home/>}/>
+                <Route path='/' element={<Game/>}/>
                 <Route path='/invest' element={<Invest/>}/>
                 <Route path='/news' element={<News/>}/>
                 <Route path='/stake' element={<Stake/>}/>
