@@ -27,7 +27,7 @@ import Navbar from './components/Navbar/index';
 import NewUser from './components/NewUser/index';
 import ForgotPassword from './components/ForgotPassword/index';
 import Article from './components/Article/index';
-import Background from './components/Background/index';
+import Background from './components/Background/index.js';
 
 function getLibrary(provider) {
   return new Web3(provider)
