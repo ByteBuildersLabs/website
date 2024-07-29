@@ -17,11 +17,6 @@
 
 body {
   color: var(--white);
-  background-color: var(--main-bg-color);
-  background-image: url('./assets/img/fuego.mp4');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top center;
   padding-bottom: 100px;
   background-size: cover;
   font-family: "Roboto Condensed", sans-serif;

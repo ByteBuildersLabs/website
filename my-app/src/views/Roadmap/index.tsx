@@ -2,6 +2,7 @@ import React from 'react';
 import RoadmapStep from '../../components/RoadmapStep';
 import RoadmapMonth from '../../components/RoadmapMonth';
 import RoadmapTeam from '../../components/RoadmapTeam';
+import Footer from '../../components/Footer';
 import './main.css';
 
 function Roadmap() {
@@ -124,6 +125,7 @@ function Roadmap() {
         subtitle3="Community Feedback: Continuously gather and implement community feedback to improve the game"
         subtitle4=""
       />
+      <Footer />
     </div>
   )
 }

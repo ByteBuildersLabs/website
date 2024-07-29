@@ -1,9 +1,8 @@
 import React from 'react';
 import NftHall from '../../components/NftHall/index';
 import MintBeast from '../../components/MintBeast/index';
-import { useWeb3React } from '@web3-react/core';
+import Footer from '../../components/Footer';
 import './main.css';
-
 
 function NftRoom() {
   return (
@@ -14,6 +13,7 @@ function NftRoom() {
       </div>
       <NftHall />
       <MintBeast />
+      <Footer />
     </div>
   )
 }

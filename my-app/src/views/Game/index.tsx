@@ -1,6 +1,7 @@
 import React from 'react';
 import Play from '../../components/Play';
 import RoadmapMonth from '../../components/RoadmapMonth';
+import Footer from '../../components/Footer';
 import './main.css';
 
 function Game() {
@@ -22,6 +23,7 @@ function Game() {
           subtitle4="Team Assembly Mechanism: Implement the feature for players to assemble teams of Byte Beasts"
         />
       </div>
+      <Footer />
     </>
   )
 }

@@ -1,0 +1,12 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 60px 0 30px;
+}
+
+.footer-logo {
+  background: #fff;
+  border-radius: 50%;
+  height: 20px;
+}
