@@ -5,19 +5,12 @@
 }
 
 .new {
-  cursor: pointer;
   border-radius: 3px;
   border: 5px solid var(--light-green);
   margin-bottom: 40px;
   transition: all 0.25s;
   color: var(--main-bg-color);
   background-color: var(--main-bg-color);
-}
-
-.new:hover {
-  border-color: var(--yellow);
-  color: var(--white);
-  background-color: var(--yellow);
 }
 
 .new img {

@@ -1,7 +1,4 @@
 import React from 'react';
-import StakeBox from '../../components/StakeBox/index';
-import ManageRewards from '../../components/ManageRewards/index';
-import MintRewards from '../../components/MintRewards/index';
 import './main.css';
 
 function Game() {
@@ -9,13 +6,11 @@ function Game() {
     <>
       <div className="game">
         <div className="section-title title-style-two text-center mb-60">
-          <span>Stake</span>
-          <h2>Block your Orbs <span className="d-block">Earn APY each month</span></h2>
+          <span>Byte Builders Labs</span>
+          <h2>Check our progress<span className="d-block">Play Byte Beasts</span></h2>
         </div>
 
-        <StakeBox />
-        <ManageRewards />
-        <MintRewards />
+        
       </div>
     </>
   )

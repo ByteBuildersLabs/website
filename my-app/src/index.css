@@ -103,8 +103,8 @@ button {
 }
 
 .main-button:hover {
-  color: var(--main-bg-color);
-  background-color: var(--yellow);
+  color: #fff;
+  background-color: #e4a101;
 }
 
 .secondary-button {

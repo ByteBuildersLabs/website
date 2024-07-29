@@ -25,7 +25,7 @@ function NftHall() {
           <div className="d-flex align-items-center mb-4">
             <div className="col-8">
               <p className={'title'}>
-                This is your vault <span>Your ByteBeasts live here</span> You'll see It here
+                This is your vault <span>Your Byte Beasts live here</span> You'll see It here
               </p>
             </div>
             <div className="col-4 d-flex justify-content-end">
