@@ -35,12 +35,12 @@ function MintRewards() {
     }  
   };
 
-  (async function getCoraTokenOwner() {
-    const [owner] = await Promise.all([
-      coraTokenContract.methods.owner().call(),
-    ]);
-    setCoraTokenOwner(owner)
-  })();
+  // (async function getCoraTokenOwner() {
+  //   const [owner] = await Promise.all([
+  //     coraTokenContract.methods.owner().call(),
+  //   ]);
+  //   setCoraTokenOwner(owner)
+  // })();
 
 
   return (

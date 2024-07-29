@@ -165,7 +165,7 @@ button {
   font-family: 'Poppins', sans-serif !important;
   text-transform: initial !important;
   font-weight: bold !important;
-  border: 3px solid var(--yellow) !important;
+  border: 3px solid #e4a101 !important;
 }
 
 #__react-alert__ div div div svg {
@@ -199,7 +199,7 @@ button {
   display: block;
   font-family: 'Poppins', sans-serif !important;
   line-height: 1;
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 700;
   color: #c8c8c8;
   margin-bottom: 15px;
@@ -209,7 +209,7 @@ button {
 .title-style-two {
   padding-bottom: 35px;
   position: relative;
-  margin: 30px auto 40px;
+  margin: 30px auto 10px;
 }
 
 .title-style-two::before {
@@ -229,8 +229,8 @@ button {
 }
 
 .section-tab {
-  margin: 0 0 30px;
-  padding: 40px 20px;
+  margin: 0;
+  padding: 0px 20px;
   border-radius: 3px;
   background-color: transparent;
 }
@@ -287,6 +287,7 @@ button {
   right: 0;
   margin: 0 auto;
   background: transparent;
+  border-bottom: 2px solid #e4a101;
   transition: all 0.3s ease-out 0s;
 }
 

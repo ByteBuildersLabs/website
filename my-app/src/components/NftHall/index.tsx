@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { useWeb3React } from '@web3-react/core';
-import nftIcon from '../../assets/img/purpleorb.gif';
 import { useMysticsAnimalsData } from '../../hooks/useMysticAnimalsData';
 import { useTribesMasksData } from '../../hooks/useTribeMasksData';
+import rewardPic from '../../assets/img/vault.gif';
 import './main.css';
 
 interface nftMetaData {
@@ -20,62 +20,48 @@ function NftHall() {
 
   return (
     <>
-      { <>
-          <div className="nft-box section-tab yellow-border pb-2">
-            <div className="d-flex align-items-center mb-4">
-              <div className="col-9">
-                <p className={ 'title' }>
-                  Here you can see your collectibles <span>Explore the collectibles market</span>
-                </p>
-              </div>
-              <div className="col-3 d-flex justify-content-end">
-                <img src={nftIcon} className="section-tab-pet" alt="" />
-              </div>
+      {<>
+        <div className="nft-box section-tab yellow-border pb-2">
+          <div className="d-flex align-items-center mb-4">
+            <div className="col-8">
+              <p className={'title'}>
+                This is your vault <span>Your ByteBeasts live here</span> You'll see It here
+              </p>
             </div>
-            <div className="collection row">
-              { 
-                animals.map(({ name, image, tokenId, owner }:nftMetaData) => {
-                  if (owner === account) {
-                    return <Link key={tokenId} to={`/nftroom/mysticAnimals/${tokenId}`} className="col-4 yellow">
-                            <div className="nft-card">
-                              <img src={image} alt=""/>
-                              <p>{name}</p>
-                            </div>
-                          </Link>
-                  }
-                })
-              }
-            </div>
-            <div className="collection row">
-              { 
-                masks.map(({ name, image, tokenId, owner }:nftMetaData) => {
-                  if (owner === account) {
-                    return <Link key={tokenId} to={`/nftroom/tribeMasks/${tokenId}`} className="col-4 yellow">
-                            <div className="nft-card">
-                              <img src={image} alt=""/>
-                              <p>{name}</p>
-                            </div>
-                          </Link>
-                  }
-                })
-              }
+            <div className="col-4 d-flex justify-content-end">
+              <img src={rewardPic} className="section-tab-pet" alt="" />
             </div>
           </div>
-
-          <Link to={`/nftmint/mysticAnimals`}>
-            <button 
-              className={ 'main-button mb-3' }
-              disabled={ account ? false : true }
-            >Mint Mystic Animal</button>
-          </Link>
-
-          <Link to={`/nftmint/tribeMasks`}>
-            <button 
-              className={ 'main-button mb-3' }
-              disabled={ account ? false : true }
-            >Mint Tribe Masks</button>
-          </Link>
-        </>
+          <div className="collection row">
+            {
+              animals.map(({ name, image, tokenId, owner }: nftMetaData) => {
+                if (owner === account) {
+                  return <Link key={tokenId} to={`/nftroom/mysticAnimals/${tokenId}`} className="col-4 yellow">
+                    <div className="nft-card">
+                      <img src={image} alt="" />
+                      <p>{name}</p>
+                    </div>
+                  </Link>
+                }
+              })
+            }
+          </div>
+          <div className="collection row">
+            {
+              masks.map(({ name, image, tokenId, owner }: nftMetaData) => {
+                if (owner === account) {
+                  return <Link key={tokenId} to={`/nftroom/tribeMasks/${tokenId}`} className="col-4 yellow">
+                    <div className="nft-card">
+                      <img src={image} alt="" />
+                      <p>{name}</p>
+                    </div>
+                  </Link>
+                }
+              })
+            }
+          </div>
+        </div>
+      </>
       }
     </>
   )

@@ -22,8 +22,8 @@
 
 .new img {
   width: 100%;
-  height: 150px;
-  border-radius: 25px 25px 0 0;
+  height: 200px;
+  border-radius: 25px;
   object-fit: cover;
 }
 
