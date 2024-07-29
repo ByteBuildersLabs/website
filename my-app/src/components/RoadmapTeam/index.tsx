@@ -13,12 +13,17 @@ function RoadmapTeam() {
       </div>
       <div>
         <p className={'subtitle'}>
-        Our team is back home 🇨🇷 after spending the last two weeks in Brussels attending the Starknet Hacker House and Starknet CC. In this thread, we'll share the main highlights:
+          Our team is back home 🇨🇷 after spending the last two weeks in Brussels attending the Starknet Hacker House and Starknet CC. In this thread, we'll share the main highlights:
         </p>
       </div>
-      <div className="new yellow-border mb-3">
-        <img src={dragon2} alt="" />
-      </div>
+      <a
+        href='https://x.com/ByteBuildersLab/status/1813675695153070469'
+        target='_blank'
+      >
+        <div className="new yellow-border mb-3">
+          <img src={dragon2} alt="" />
+        </div>
+      </a>
       <p className={'subtitle text-center'}>
         Byte Builders Team with Tale Weaver and David Barreto
       </p>
