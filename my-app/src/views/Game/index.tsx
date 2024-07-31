@@ -10,7 +10,7 @@ function Game() {
       <div className="game">
         <div className="section-title title-style-two text-center mb-60">
           <span>Byte Builders Labs</span>
-          <h2>Check our progress<span className="d-block">Play Byte Beasts</span></h2>
+          <h2>Check our progress<span className="d-block">Test Byte Beasts</span></h2>
         </div>
         <Play />
         <RoadmapMonth
@@ -22,6 +22,15 @@ function Game() {
           subtitle3="Art and Graphics: Begin the development of game assets and visual design"
           subtitle4="Team Assembly Mechanism: Implement the feature for players to assemble teams of Byte Beasts"
         />
+        <a
+          href={`https://x.com/0xByteBeasts`}
+          target='_blank'
+        >
+          <button
+            className={'main-button mb-3'}
+            disabled={false}
+          >Follow us on Twitter</button>
+        </a>
       </div>
       <Footer />
     </>

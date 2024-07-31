@@ -34,7 +34,7 @@ function Play() {
             <button
               className={'main-button mb-3'}
               disabled={false}
-            >Play Byte Beasts</button>
+            >Test Byte Beasts</button>
           </a>
           <p className={'subtitle text-center mb-5'}>
             It takes a bit to load, but it's worth it!

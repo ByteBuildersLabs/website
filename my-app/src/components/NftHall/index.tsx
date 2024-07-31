@@ -21,8 +21,8 @@ function NftHall() {
   return (
     <>
       {<>
-        <div className="nft-box section-tab yellow-border pb-2">
-          <div className="d-flex align-items-center mb-4">
+        <div className="nft-box section-tab yellow-border">
+          <div className="d-flex align-items-center">
             <div className="col-8">
               <p className={'title'}>
                 This is your vault <span>Your Byte Beasts live here</span> You'll see It here

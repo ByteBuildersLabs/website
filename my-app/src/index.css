@@ -98,11 +98,6 @@ button {
   background-color: var(--main-bg-color);
 }
 
-.main-button:hover {
-  color: #fff;
-  background-color: #e4a101;
-}
-
 .secondary-button {
   width: 98%;
   display: block;

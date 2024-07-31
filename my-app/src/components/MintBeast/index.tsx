@@ -1,6 +1,7 @@
 import React from 'react';
 import stakeIcon from '../../assets/img/greenorb.gif';
 import dragon from '../../assets/img/dragon.png';
+import MintPromo from '../MintPromo';
 import { Link } from "react-router-dom";
 import './main.css';
 
@@ -8,7 +9,7 @@ function MintBeast() {
   return (
     <>
       <div className="new-contract">
-        <div className="new-contract-box section-tab yellow-border">
+        <div className="new-contract-box section-tab yellow-border pt-3">
           <div className="product-tag">
             <span>1st Generation</span>
           </div>
@@ -28,20 +29,21 @@ function MintBeast() {
               The mint of the first beasts is still beta a non official yet, we are working hard to make it official soon. Visit our roadmap
             </p>
           </div>
-          <div className="new yellow-border">
+          <div className="new yellow-border mb-4">
             <img src={dragon} alt="" />
           </div>
+          <MintPromo />
           {
 
             <Link to={`/nftmint/mysticAnimals`}>
               <button
                 className={'main-button mb-3'}
-                disabled={false}
+                disabled={true}
               >Mint Byte Beast</button>
             </Link>
           }
           <p className={'subtitle text-center'}>
-            This is a test, official beasts coming soon
+            This is a work in progress. Official Mint is coming soon
           </p>
         </div>
       </div>
