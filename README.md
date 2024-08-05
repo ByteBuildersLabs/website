@@ -1,5 +1,5 @@
 # ⚡️ ByteBeast Official Website
-https://github.com/ByteBuildersLabs/ByteBeasts
+- https://github.com/ByteBuildersLabs/ByteBeasts
 
 ## 🔮 Table of contents
 1. [What is this](#-what-is-this)
