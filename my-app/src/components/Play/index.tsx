@@ -28,7 +28,7 @@ function Play() {
             <img src={fight} alt="" />
           </div>
           <a 
-            href={`https://testing-app-pink.vercel.app/`}
+            href={`https://byte-beasts-deploy.vercel.app/`}
             target='_blank'
           >
             <button
